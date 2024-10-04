@@ -8,7 +8,7 @@ import Logo from "@/assets/logo.png";
 export default function NavBar() {
   return (
     <div>
-      <header className="h-16 text-[15px] fixed inset-0 flex-center bg-gray-800">
+      <header className="h-16 text-[15px] fixed inset-0 flex-center bg-gray-800 ">
         <nav className=" px-3.5 flex-center-between w-full container mx-auto">
           <div className="flex-center gap-x-3 z-[999] relative">
             <Image
@@ -19,7 +19,7 @@ export default function NavBar() {
               alt="Picture of the author"
             />
             {/* <img src={Logo} alt="" className="size-8" /> */}
-            <h3 className="text-lg font-semibold">Framer</h3>
+            <h3 className="text-lg font-semibold">রেজিবি স্মৃতি</h3>
           </div>
 
           <ul className="gap-x-1 lg:flex-center hidden">
